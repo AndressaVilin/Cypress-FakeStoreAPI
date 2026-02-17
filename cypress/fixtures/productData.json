@@ -1,0 +1,14 @@
+{
+    "ValidProduct": {
+        "title": "string",
+        "price": 0.1,
+        "description": "string",
+        "category": "string",
+        "image": "http://example.com"
+    },
+    "InvalidProduct": {
+        "price": 0.1
+    }
+}
+
+       
