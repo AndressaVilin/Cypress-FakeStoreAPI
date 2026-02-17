@@ -24,11 +24,11 @@ jobs:
         run: npm install
 
       - name: Run Cypress tests
-        run: npx cypress verify && npx cypress run
-
-      - name: Run Cypress tests with reporter
-        run: npx cypress run --reporter mochawesome
-
+        uses: cypress-io/github-action@v5
+        with:
+          install: npm install
+          runTests: true
+          
       - name: Cache node modules
         uses: actions/cache@v3
         with:
