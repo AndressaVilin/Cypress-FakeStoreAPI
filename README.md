@@ -1,5 +1,7 @@
 # 🧪 Cypress - Fake Store API Automation
 
+![CI](https://github.com/AndressaVilin/Cypress-FakeStoreAPI/actions/workflows/ci.yml/badge.svg)
+
 Projeto de automação de testes de API utilizando **Cypress**, com foco na validação de contratos, status code, estrutura de resposta e cenários positivos e negativos.
 
 ---
@@ -74,3 +76,4 @@ npx cypress run
 ## 🔄 Integração Contínua
 
 O projeto possui workflow configurado no GitHub Actions para execução automática dos testes a cada push.
+
