@@ -20,3 +20,12 @@ Cypress.Commands.add('addNewProduct', produto => {
   })
 })
 
+Cypress.Commands.add('login', user => {
+  return cy.request({
+    method: "POST",
+        url: '/auth/login',
+        body: user,
+        failOnStatusCode: false
+  })
+})
+

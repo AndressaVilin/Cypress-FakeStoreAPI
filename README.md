@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/AndressaVilin/Cypress-FakeStoreAPI/actions/workflows/ci.yml/badge.svg)
 
-Projeto de automação de testes de API utilizando **Cypress**, com foco na validação de contratos, status code, estrutura de resposta e cenários positivos e negativos.
+Projeto de automação de testes de API utilizando **Cypress**, com foco em validação de contratos, status code, estrutura de resposta, tipos de dados e cobertura de cenários positivos e negativos.
 
 ---
 
@@ -38,6 +38,33 @@ Automatizar os principais endpoints da FakeStore API, validando:
 
 ---
 
+## 📂 Estrutura do Projeto
+```
+.github/
+└── workflows/
+└── ci.yml
+
+cypress/
+├── e2e/
+│ ├── login.cy.js
+│ └── products.cy.js
+│
+├── fixtures/
+│ ├── loginData.json
+│ └── productData.json
+│
+├── screenshots/
+│
+└── support/
+├── commands.js
+└── e2e.js
+
+cypress.config.js
+package.json
+README.md
+
+```
+
 ## ⚙️ Guia de instalação
 
 ### Pré-requisitos
@@ -72,8 +99,47 @@ Modo headless:
 npx cypress run
 ```
 
-
+---
 ## 🔄 Integração Contínua
 
 O projeto possui workflow configurado no GitHub Actions para execução automática dos testes a cada push.
 
+---
+
+## 🧠 Estratégia de Testes
+
+Os testes foram estruturados seguindo boas práticas de automação:
+
+- Separação de dados utilizando fixtures
+- Reutilização de código com Custom Commands
+- Validação de cenários positivos e negativos
+- Validação de contrato (estrutura e tipos de dados)
+- Controle de falhas com `failOnStatusCode: false`
+- Execução automatizada via CI
+
+A organização foi pensada para permitir escalabilidade e fácil manutenção.
+
+---
+
+## 📋 Casos de Teste Automatizados
+
+### 🔐 Autenticação
+
+- [QFSA-20] Login com credenciais válidas
+- [QFSA-21] Login com senha incorreta
+- [QFSA-23] Login com corpo vazio
+
+### 📦 Produtos
+
+- Listagem de produtos
+- Validação de estrutura do retorno
+- Validação de campos obrigatórios
+
+---
+
+## 👩‍💻 Autora
+
+Desenvolvido por **Andressa Évilin**
+
+📎 LinkedIn: <www.linkedin.com/in/andressa-evilin-986427359>
+📎 GitHub: <https://github.com/AndressaVilin>
