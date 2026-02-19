@@ -141,5 +141,7 @@ A organização foi pensada para permitir escalabilidade e fácil manutenção.
 
 Desenvolvido por **Andressa Évilin**
 
-📎 LinkedIn: <www.linkedin.com/in/andressa-evilin-986427359>
-📎 GitHub: <https://github.com/AndressaVilin>
+
+🔗 [LinkedIn](https://www.linkedin.com/in/andressa-evilin-986427359)
+
+🔗 [GitHub](https://github.com/AndressaVilin)
