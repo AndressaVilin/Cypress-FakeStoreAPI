@@ -136,6 +136,12 @@ A organização foi pensada para permitir escalabilidade e fácil manutenção.
 - Validação de campos obrigatórios
 
 ---
+## 📄 Estudo de Caso / Documentação do Projeto
+Para uma visão detalhada sobre o planejamento no Jira, cenários de teste e análise de inconsistências, acesse o documento:
+
+👉 [**Clique aqui para abrir o PDF do Estudo de Caso**](https://github.com/AndressaVilin/Cypress-FakeStoreAPI/blob/main/Caso_de_Estudo_FakeStoreAPI.pdf)
+
+---
 
 ## 👩‍💻 Autora
 
